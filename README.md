@@ -17,7 +17,7 @@ To help users create professional CVs and resumes easily and intuitively.
 
 ### **Unique Value Proposition**
 - Modern, customizable templates
-- Real-time editing
+- Real-time editing (?)
 - Optional AI-based suggestions for content and formatting
 
 ---
@@ -25,13 +25,14 @@ To help users create professional CVs and resumes easily and intuitively.
 ## **2. Planned Features**
 
 ### **Core Features**
-- User Authentication (Google, LinkedIn integration - optional)
+- User Authentication (Google, LinkedIn integration)
 - CV Template Selection
 - Real-time Editing Interface
 - Section Customization (e.g., Education, Work Experience, Skills)
 - Multi-language Support
 - Download Options (PDF, DOCX)
 - Mobile Responsiveness
+- Enourmous choice of templates
 
 ### **Optional Features**
 - AI-based Suggestions (e.g., phrasing improvements, grammar checks)
@@ -44,15 +45,10 @@ To help users create professional CVs and resumes easily and intuitively.
 ## **3. Tech Stack**
 
 ### **Frontend**
-- React.js or React Native (for cross-platform support)
-
-### **Backend**
-- Go
-
-### **Database**
-- PostgreSQL or MongoDB
-
-### **Styling**
+- Typescript
+- ReactJS
+- NodeJS
+- PostgreSQL
 - Tailwind CSS
 
 ### **API Integration**
@@ -63,32 +59,36 @@ To help users create professional CVs and resumes easily and intuitively.
 ## **4. Development Stages**
 
 ### **Planning Phase**
-- Create wireframes and user flows.
-- Research competitors and UX best practices.
-- Finalize the tech stack.
-- Define user stories for each feature.
+- [ ] Research competitors and UX best practices.
+- [ ] Finalize the tech stack.
+- [ ] Define user stories for each feature.
+- [ ] Create wireframes and user flows.
 
 ### **Development Phase**
 1. **Foundation**
-   - Set up environment (frontend, backend, database).
-   - Implement authentication.
+    - [ ] Set up environment (frontend, backend, database).
+      - [ ] Database
+      - [ ] Frontend (mockup pages should be basic but functional)
+      - [ ] Backend (it should work as it's supposed to)
+    - [ ] Implement authentication and authorisation.
 
 2. **Core Functionality**
-   - Build the editor and template selector.
-   - Add sections for input (work experience, education, skills).
-   - Ensure cross-platform compatibility.
+   - [ ] Build the editor and template selector.
+   - [ ] Add sections for input (work experience, education, skills).
+   - [ ] Ensure cross-platform compatibility.
 
 3. **Enhancements**
-   - Integrate additional features (AI suggestions, analytics).
-   - Optimize performance (lazy loading, bundling).
+   - [ ] Integrate additional features (AI suggestions, analytics, more sections for imput).
+   - [ ] Optimize performance (lazy loading, bundling).
+   - [ ] Ensure a wide selection of templates
 
 4. **Testing**
-   - Unit tests, integration tests, and user testing.
-   - Compatibility testing for different devices.
+   - [ ] Unit tests, integration tests, and user testing.
+   - [ ] Compatibility testing for different devices.
 
 5. **Launch Preparation**
-   - Add analytics to track usage.
-   - Ensure secure deployment (SSL, etc.).
+   - [ ] Add analytics to track usage.
+   - [ ] Ensure secure deployment (SSL, etc.).
 
 ---
 
@@ -120,16 +120,16 @@ To help users create professional CVs and resumes easily and intuitively.
 ## **6. Tools and Workflow**
 
 ### **Project Management**
-- Trello, Asana, or Notion for Kanban boards.
+- GitHub project for various boards.
 
 ### **Version Control**
 - GitHub or GitLab
 
 ### **Communication**
-- Slack or Discord (if working in a team)
+- No communication. One person project for now.
 
 ### **Design**
-- Figma for mockups
+- Figma and Excalidraw for mockups
 
 ### **CI/CD**
 - GitHub Actions or Jenkins
